@@ -8,6 +8,10 @@ testbench/
 *_sim/
 #output_files/
 
+# ignore Qsys generated folders
+.qsys_edit/
+core/
+
 # ignore Quartus II generated files
 *sopc_*
 *.jdi
@@ -42,3 +46,4 @@ testbench/
 *.zip
 *.rar
 *.bz2
+
