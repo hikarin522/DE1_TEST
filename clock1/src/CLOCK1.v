@@ -9,7 +9,7 @@ module CLOCK1(
 );
 
 logic RST = 1'b0;
-_CLOCK1 _CLOCK1(CLOCK_50, RST, ~KEY, HEX0, HEX1, HEX2, HEX3);
+_CLOCK1 _CLOCK1(CLOCK_50, RST, KEY, HEX0, HEX1, HEX2, HEX3);
 
 endmodule
 
