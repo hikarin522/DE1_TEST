@@ -16,7 +16,6 @@ core/
 *sopc_*
 *.jdi
 *.ptf.*
-*.pof
 *.qws
 *.smsg
 *_inst.vhd
@@ -39,6 +38,9 @@ core/
 *.mif
 *.ddb
 *_dump.txt
+*.pof
+*.jic
+*.map
 
 /DE1-SoC_v.3.1.3_HWrevC_revD_SystemCD/
 /de1-soc_vip_demo/
