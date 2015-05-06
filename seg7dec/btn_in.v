@@ -28,7 +28,7 @@ module BTN_IN (
 		end
 	end
 	
-	wire [2:0]temp = ff1 & ff2 & {3{en40hz}};
+	wire [2:0]temp = ~ff1 & ff2 & {3{en40hz}};
 	
 	always @(posedge CLK)
 	begin

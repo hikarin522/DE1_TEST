@@ -6,7 +6,7 @@ module seg7dec(
 );
 
 	wire reset, douwn, up;
-	BTN_IN BTN_IN(CLOCK_50, ~KEY, {reset, down, up});
+	BTN_IN BTN_IN(CLOCK_50, KEY, {reset, down, up});
 
 	reg [3:0]udcnt;
 	always @(posedge CLOCK_50)
@@ -41,7 +41,7 @@ module seg7dec(
 			HEX0 = 7'b0010010;
 			
 		4'h6:
-			HEX0 = 7'b1000010;
+			HEX0 = 7'b0000010;
 			
 		4'h7:
 			HEX0 = 7'b1011000;
@@ -65,7 +65,7 @@ module seg7dec(
 			HEX0 = 7'b0100001;
 			
 		4'he:
-			HEX0 = 7'b1000110;
+			HEX0 = 7'b0000110;
 			
 		4'hf:
 			HEX0 = 7'b0001110;
