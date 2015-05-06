@@ -17,3 +17,4 @@
 *.RTF	 diff=astextplain
 
 *.qsf  binary
+*.stp  binary
