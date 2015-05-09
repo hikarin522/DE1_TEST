@@ -11,6 +11,12 @@ testbench/
 # ignore Qsys generated folders
 .qsys_edit/
 core/
+*Qsys/
+
+# ignore Qsys generated folders
+.metadata/
+RemoteSystemTempFiles/
+obj/
 
 # ignore Quartus II generated files
 *sopc_*
@@ -41,6 +47,9 @@ core/
 *.pof
 *.jic
 *.map
+*.objdump
+*.a
+
 
 /DE1-SoC_v.3.1.3_HWrevC_revD_SystemCD/
 /de1-soc_vip_demo/
